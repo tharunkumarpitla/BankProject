@@ -3,18 +3,19 @@ __pycache__/
 *.py[cod]
 
 # Virtual environment
-venv/
 .venv/
-
-# Environment variables
-.env
+venv/
+env/
 
 # PyCharm
 .idea/
 
-# Database
-*.db
+# Environment variables
+.env
 
-# OS
+# Python logs
+*.log
+
+# OS files
 .DS_Store
 Thumbs.db
